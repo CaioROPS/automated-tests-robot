@@ -70,7 +70,7 @@ automated-tests-robot/
 │
 ├── .gitattributes
 ├── .gitignore
-├── README.md   
+└── README.md   
 
 ##Contato 
 Caso tenha dúvidas ou precise de suporte, entre em contato:
