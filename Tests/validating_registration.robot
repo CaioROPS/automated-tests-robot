@@ -2,7 +2,6 @@
 Resource    ../pages/LoginPage.robot
 Resource    ../pages/CreateUserPage.robot
 Resource    ../pages/CreateEmployeePage.robot
-Resource    ../pages/DeleteUserPage.robot
 
 *** Test Cases ***
 Criar Empregado com Sucesso
