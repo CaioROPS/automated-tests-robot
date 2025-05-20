@@ -18,7 +18,7 @@ Selecionar Status de Usuário
 
 Preencher Nome de Funcionário
     [Arguments]    ${employee_name}
-    Input Text       xpath://div[@class='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']    ${employee_name}
+    Input Text       xpath:(//input[@placeholder='Type for hints...'])[1]    ${employee_name}
     Wait Until Element Contains    xpath:(//div[@class='oxd-autocomplete-option'])[1]    ${employee_name}
     Click Element    xpath:(//div[@class='oxd-autocomplete-option'])[1]
 

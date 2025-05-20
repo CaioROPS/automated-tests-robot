@@ -17,7 +17,7 @@ Pesquisar Empregado
     Click Button     xpath://button[@type='submit']
 
 Excluir Empregado
-    Wait Until Element Contains    css:[role= table]    Teste
+    Wait Until Element Contains    css:[role= table]    QA
     Click Element    xpath://button[@type='button']//i[@class='oxd-icon bi-trash']
     Wait Until Element Is Visible    css:[role= document]
     Click Element    xpath://i[@class='oxd-icon bi-trash oxd-button-icon']
