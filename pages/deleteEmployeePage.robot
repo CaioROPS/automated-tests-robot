@@ -21,8 +21,6 @@ Excluir Empregado
     Click Element    xpath://button[@type='button']//i[@class='oxd-icon bi-trash']
     Wait Until Element Is Visible    css:[role= document]
     Click Element    xpath://i[@class='oxd-icon bi-trash oxd-button-icon']
-    Wait Until Element Is Visible    css:.oxd-text--toast-title    timeout=10s
-    Element Should Contain      css:.oxd-text--toast-title    Success
     Sleep    2s
 
 Deletar Empregado

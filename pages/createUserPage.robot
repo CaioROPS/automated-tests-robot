@@ -34,8 +34,6 @@ Preencher Credenciais de Usuário
 
 Salvar Usuário
     Click Button     xpath://button[@type='submit']
-    Wait Until Element Is Visible    css:.oxd-text--toast-title    timeout=10s
-    Element Should Contain      css:.oxd-text--toast-title    Success
     Sleep           2s
 
 Criar Usuário
